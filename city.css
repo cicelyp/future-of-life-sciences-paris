@@ -1,0 +1,120 @@
+/* ─── PARIS CITY TOKENS ───────────────────────────────────────────────── */
+/* Warm limestone editorial. Shared tokens are in styles.css.             */
+/* Swap this file to switch city character without touching shared styles. */
+:root {
+  /* Paris accent palette — layered over the shared system */
+  --city-accent:        #C9A96E;   /* warm champagne gold — replaces --gold */
+  --city-accent-light:  #DFC090;   /* replaces --gold-light */
+  --city-accent-deep:   #8C5A38;   /* warm terracotta — session 03 card top */
+  --city-bg:            #FAF7F2;   /* warmer ivory body */
+  --city-bg-mid:        #F2EAE0;   /* limestone mid */
+  --city-bg-deep:       #EDE1D2;   /* parchment */
+  --city-overlay-rgb:   44, 28, 16; /* amber-brown hero shadow */
+}
+
+/* ── Override shared tokens with Paris values ─────────────────────────── */
+:root {
+  --gold:       var(--city-accent);
+  --gold-light: var(--city-accent-light);
+  --ivory:      var(--city-bg);
+  --ivory-mid:  var(--city-bg-mid);
+}
+
+body { background: var(--city-bg); }
+
+/* ── Hero overlay — warm Parisian amber-brown instead of cold navy ─────── */
+.hero__overlay {
+  background:
+    linear-gradient(
+      to right,
+      rgba(var(--city-overlay-rgb), 0.96) 0%,
+      rgba(var(--city-overlay-rgb), 0.85) 28%,
+      rgba(var(--city-overlay-rgb), 0.55) 50%,
+      rgba(var(--city-overlay-rgb), 0.22) 68%,
+      transparent 82%
+    ),
+    linear-gradient(
+      to top,
+      rgba(var(--city-overlay-rgb), 0.72) 0%,
+      transparent 40%
+    ),
+    rgba(var(--city-overlay-rgb), 0.12);
+}
+
+@media (max-width: 900px) {
+  .hero__overlay {
+    background:
+      linear-gradient(to bottom, rgba(var(--city-overlay-rgb), 0.80) 0%, rgba(var(--city-overlay-rgb), 0.55) 45%, transparent 75%),
+      linear-gradient(to top, rgba(var(--city-overlay-rgb), 0.78) 0%, transparent 40%),
+      rgba(var(--city-overlay-rgb), 0.32);
+  }
+}
+
+/* ── Gold bottom rule — champagne ──────────────────────────────────────── */
+.hero::after {
+  background: linear-gradient(
+    to right,
+    var(--city-accent) 0%,
+    var(--city-accent-light) 40%,
+    transparent 100%
+  );
+}
+
+/* ── Hero left vertical rule ───────────────────────────────────────────── */
+.hero__rule {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--city-accent) 30%,
+    var(--city-accent) 70%,
+    transparent 100%
+  );
+}
+
+/* ── Section backgrounds — limestone warmth ────────────────────────────── */
+.why-you          { background: var(--white); }
+.sessions         { background: var(--city-bg); }
+.host             { background: var(--city-bg-mid); border-top-color: var(--city-bg-deep); }
+.the-experience   { background: var(--city-bg-deep); }
+.whats-new        { background: var(--white); }
+.concierge        { background: var(--city-bg); border-top-color: var(--city-bg-mid); }
+
+/* ── Your Summit label — warm charcoal instead of navy ─────────────────── */
+.your-summit-label {
+  background: #2C1C10;
+  border-top-color: rgba(201, 169, 110, 0.25);
+}
+
+/* ── Session card top-border accents — Paris palette ──────────────────── */
+.session-card:nth-child(1) { border-top-color: var(--city-accent); }
+.session-card:nth-child(2) { border-top-color: var(--sf-blue); }
+.session-card:nth-child(3) { border-top-color: var(--city-accent-deep); }
+
+.session-card:nth-child(1) .session-card__number { color: rgba(201,169,110,0.18); }
+.session-card:nth-child(2) .session-card__number { color: rgba(0,161,224,0.14); }
+.session-card:nth-child(3) .session-card__number { color: rgba(140,90,56,0.14); }
+
+/* ── RSVP panel — warm border ───────────────────────────────────────────── */
+.rsvp-panel {
+  border-top-color: var(--city-accent);
+}
+
+/* ── Section labels — champagne ─────────────────────────────────────────── */
+.section__label { color: var(--city-accent); }
+
+/* ── Why You heading italic ─────────────────────────────────────────────── */
+.why-you__heading em { color: var(--city-accent); }
+
+/* ── Host photo background ───────────────────────────────────────────────── */
+.host__photo { background: #2C1C10; }
+.host__photo-initials { color: var(--city-accent-light); }
+
+/* ── Concierge contact border ───────────────────────────────────────────── */
+.concierge__contact > div { border-left-color: var(--city-accent); }
+.concierge__services li::before { color: var(--city-accent); }
+
+/* ── What's new items ──────────────────────────────────────────────────── */
+.whats-new-item { border-bottom-color: var(--city-bg-mid); }
+
+/* ── Experience items ──────────────────────────────────────────────────── */
+.experience-item { border-bottom-color: rgba(140,90,56,0.15); }

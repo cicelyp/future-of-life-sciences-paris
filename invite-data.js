@@ -1,5 +1,5 @@
 const INVITE = {
-  id: "LSX-2025-NY-0042",
+  id: "LSX-2025-PAR-0018",
 
   executive: {
     firstName: "Jordan",
@@ -13,64 +13,64 @@ const INVITE = {
     name: "The Future of Life Sciences",
     fullName: "The Future of Life Sciences Summit",
     tagline: "Where science meets scale — an invitation-only executive summit",
-    date: "Tuesday, 9 December 2025",
-    dateISO: "2025-12-09",
-    venue: "Salesforce Tower New York",
-    venueAddress: "28 Liberty Street, New York, NY 10005",
-    city: "New York",
+    date: "Tuesday, 4 November 2025",
+    dateISO: "2025-11-04",
+    venue: "Maison de la Chimie",
+    venueAddress: "28 bis rue Saint-Dominique, 75007 Paris",
+    city: "Paris",
   },
 
   invitation: {
     personalMessage:
-      "Jordan, we are convening a select group of life sciences executives at Salesforce Tower New York for a private summit designed for the leaders who are defining how AI-powered science translates into patient outcomes at speed. Given Helix's work at the frontier of precision medicine, I believe you will find both the programme and the conversations genuinely valuable — and I look forward to welcoming you personally.",
+      "Jordan, we are bringing together a select group of life sciences leaders at one of Paris's most distinguished venues for a private summit devoted to the question every CSO is living right now: how do you translate AI capability into clinical reality, at speed, without losing scientific rigour? Given Helix's position at the frontier of precision medicine, I believe this will be a genuinely useful day — and I look forward to welcoming you to Paris personally.",
     selectionReason:
-      "Jordan was selected because Helix Biotherapeutics is navigating the exact challenge this summit is designed around: compressing the distance between discovery and patient impact using AI at scale.",
+      "Jordan was selected because Helix Biotherapeutics is confronting the exact tension this summit is designed to address: moving from AI-driven discovery to patient impact faster than the organisation was built to move.",
     relevanceStatement:
-      "Helix Biotherapeutics is scaling at a moment when the distance between discovery and commercialisation is compressing faster than most organisations can absorb. This summit brings together the US executives navigating that exact challenge — alongside the Salesforce teams building the platforms that support it. You will leave with concrete frameworks for unifying clinical, regulatory, and commercial data, and with relationships that compound over time.",
+      "Helix Biotherapeutics is navigating a moment when the distance between discovery and commercialisation is compressing faster than most organisations can absorb. This summit brings together European and US life sciences executives facing that exact challenge — alongside the Salesforce teams building the platforms that support it. You will leave with frameworks for unifying clinical, regulatory, and commercial data, and with relationships that compound over time.",
   },
 
   sessions: [
     {
       number: "01",
-      title: "Invitation-Only CSO Roundtable",
-      relevance: "Selected for your perspective on AI-driven R&D",
+      title: "CSO Roundtable: AI Governance in R&D",
+      relevance: "Selected for your perspective on AI-driven discovery",
       description:
-        "A structured peer dialogue with Chief Scientific and Chief Medical Officers from leading US life sciences organisations. Off the record, no vendors — candid conversation on what AI adoption inside an R&D organisation actually requires.",
-      outcome: "Frameworks for AI governance at scale",
+        "A structured peer dialogue with Chief Scientific and Chief Medical Officers from leading European and US life sciences organisations. Off the record, no vendors — candid conversation about what real AI adoption inside an R&D organisation actually demands.",
+      outcome: "Governance frameworks your team can use immediately",
     },
     {
       number: "02",
-      title: "Life Sciences Cloud: What's Next",
+      title: "Life Sciences Cloud: European Roadmap",
       relevance: "A private briefing before public announcement",
       description:
-        "A private briefing from Salesforce's Life Sciences product leadership. See the Agentforce roadmap for clinical operations, HCP engagement, and pharmacovigilance before it is announced publicly.",
-      outcome: "Early access to the 2026 platform roadmap",
+        "A private briefing from Salesforce's Life Sciences product leadership on the European clinical and regulatory roadmap — Agentforce for pharmacovigilance, HCP engagement, and real-world evidence — before public announcement.",
+      outcome: "Early visibility into the 2026 platform strategy",
     },
     {
       number: "03",
-      title: "Executive Dinner at Salesforce Tower",
-      relevance: "An intimate setting for the conversations that matter",
+      title: "Dinner at Maison de la Chimie",
+      relevance: "An intimate close to an exceptional day",
       description:
-        "An intimate dinner for summit attendees on the upper floors of Salesforce Tower with views across Lower Manhattan. An evening designed for the kind of conversation that cannot happen on a conference floor.",
-      outcome: "Relationships that extend beyond the day",
+        "An intimate dinner in the private dining rooms of Maison de la Chimie, overlooking the 7th arrondissement. An evening designed for the kind of conversation that cannot happen in a conference setting.",
+      outcome: "Relationships that extend well beyond the day",
     },
   ],
 
   host: {
-    name: "Marcus Webb",
-    title: "Senior Vice President, Life Sciences North America",
+    name: "Sophie Renard",
+    title: "Vice President, Life Sciences EMEA",
     company: "Salesforce",
-    bio: "Marcus leads Salesforce's life sciences business across North America. He has spent two decades partnering with pharmaceutical, biotech, and medtech organisations on digital transformation, and brings a rare combination of scientific depth and commercial rigour to every engagement.",
+    bio: "Sophie leads Salesforce's life sciences practice across Europe, the Middle East, and Africa. She has spent fifteen years working with pharmaceutical, biotech, and medtech organisations on the intersection of data strategy and clinical operations, and brings both scientific depth and regional expertise to every engagement.",
     relevance:
-      "Marcus has followed Helix's progress closely and is particularly interested in the precision medicine work your team has been doing.",
+      "Sophie has followed Helix's European expansion closely and is particularly interested in the precision medicine pipeline your team is advancing.",
     welcomeMessage:
-      "Jordan, I am genuinely looking forward to welcoming you to New York. The conversations we have planned for December are unlike anything we have convened before — intimate, candid, and designed around the questions that matter most right now. I hope to see you there.",
+      "Jordan, I am very much looking forward to welcoming you to Paris. The conversations we have planned for November are intimate, candid, and centred on the questions that matter most to leaders in your position right now. I hope to see you there.",
     photoPlaceholder: true,
   },
 
   experience: [
     {
-      label: "Private executive conversations",
+      label: "Private executive roundtable",
       detail: "Off-the-record peer dialogue with CSOs and CMOs — no vendors, no agenda",
     },
     {
@@ -78,65 +78,65 @@ const INVITE = {
       detail: "A focused programme selected for this group. Every session earns its place.",
     },
     {
-      label: "Invitation-only networking",
-      detail: "Thirty executives across US biotech, pharma, and medtech",
+      label: "Invitation-only gathering",
+      detail: "Twenty-five executives across European and US biotech, pharma, and medtech",
     },
     {
-      label: "Executive dinner",
-      detail: "Intimate dinner on the 45th floor of Salesforce Tower, overlooking Lower Manhattan",
+      label: "Private dinner",
+      detail: "Intimate dinner at Maison de la Chimie in the 7th arrondissement",
     },
     {
       label: "Dedicated concierge",
-      detail: "Personal assistance from first contact through your departure",
+      detail: "Personal assistance from first contact through your departure from Paris",
     },
   ],
 
   rsvp: {
-    deadline: "Friday, 14 November 2025",
-    deadlineISO: "2025-11-14",
+    deadline: "Friday, 17 October 2025",
+    deadlineISO: "2025-10-17",
     calendarUrl:
-      "https://calendar.google.com/calendar/render?action=TEMPLATE&text=The+Future+of+Life+Sciences+Summit&dates=20251209T090000/20251209T210000&location=Salesforce+Tower+New+York,+28+Liberty+Street,+New+York,+NY+10005&details=Private+executive+summit+hosted+by+Salesforce",
+      "https://calendar.google.com/calendar/render?action=TEMPLATE&text=The+Future+of+Life+Sciences+Summit+%E2%80%94+Paris&dates=20251104T090000/20251104T210000&location=Maison+de+la+Chimie,+28+bis+rue+Saint-Dominique,+75007+Paris&details=Private+executive+summit+hosted+by+Salesforce",
   },
 
   whatsNew: [
     {
       id: "wn-003",
-      dateFormatted: "12 November",
+      dateFormatted: "15 October",
       isNew: true,
       title: "Arrival details confirmed",
       description:
-        "Private check-in begins at 8:30 am. A dedicated host will meet you in the Salesforce Tower lobby.",
+        "Private registration opens at 8:45 am. A dedicated host will meet you at the entrance to Maison de la Chimie.",
     },
     {
       id: "wn-002",
-      dateFormatted: "8 November",
+      dateFormatted: "10 October",
       isNew: true,
-      title: "Dinner location finalised",
+      title: "Dinner menu finalised",
       description:
-        "The executive dinner will be held on the 45th floor with panoramic views across Lower Manhattan.",
+        "The evening dinner will feature a curated menu from a Michelin-recognised chef, with options for all dietary requirements.",
     },
     {
       id: "wn-001",
-      dateFormatted: "1 November",
+      dateFormatted: "1 October",
       isNew: false,
-      title: "Dr. Sarah Chen confirmed",
+      title: "Dr. Amélie Fontaine confirmed",
       description:
-        "Chief Medical Officer of Meridian Health has joined the CSO Roundtable, bringing a clinical operations perspective to the AI governance conversation.",
+        "Chief Medical Officer of BioAtlantis has joined the CSO Roundtable, bringing a regulatory affairs perspective to the AI governance discussion.",
     },
   ],
 
   concierge: {
-    name: "Alicia Torres",
+    name: "Claire Beaumont",
     title: "Executive Events Concierge",
-    email: "a.torres@salesforce-events.com",
-    phone: "+1 (415) 555-0193",
-    availability: "Monday – Friday, 9 am – 6 pm ET",
-    note: "Alicia is your single point of contact for travel, accommodation, dietary requirements, and any questions about the programme. She will respond personally within four business hours.",
+    email: "c.beaumont@salesforce-events.com",
+    phone: "+33 1 55 00 19 20",
+    availability: "Monday – Friday, 9 am – 6 pm CET",
+    note: "Claire is your single point of contact for travel, accommodation, dietary requirements, and any questions about the programme. She will respond personally within four business hours.",
     services: [
-      "Travel and accommodation arrangements",
+      "Travel and accommodation in Paris",
       "Dietary and accessibility coordination",
-      "Programme questions and updates",
-      "Day-of arrival support",
+      "Programme questions and schedule updates",
+      "Day-of arrival and logistics support",
     ],
   },
 
